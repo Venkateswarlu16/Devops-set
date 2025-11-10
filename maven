@@ -1,0 +1,26 @@
+#Ubuntu
+
+apt update
+sudo apt install openjdk-8-jdk maven tree -y
+mvn -v
+update-alternatives --config java "(when u dont see java 1.8.0 for maven use the command)"
+ git clone https://github.com/devopsbyraham/jenkins-java-project.git
+ cd jenkins-java-project
+#[ERROR] Source option 5 is no longer supported. Use 7 or later.
+#[ERROR] Target option 5 is no longer supported. Use 7 or later.
+#SOL":  You’re using an old Maven or JDK mismatch. Remove old versions and reinstall."
+#SOL":  Check for POM.XMl file if not clone again"
+
+
+#Linux
+sudo apt update -y
+sudo apt install openjdk-8-jdk maven tree git -y
+java -version
+mvn -v
+sudo update-alternatives --config java
+
+git clone https://github.com/devopsbyraham/jenkins-java-project.git
+cd jenkins-java-project
+ls | grep pom.xml
+
+
