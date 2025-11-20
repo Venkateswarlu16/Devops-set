@@ -22,4 +22,4 @@ kops update cluster --name venkat.k8s.local --yes --admin
 kops validate cluster --wait 10m
 
 #TO DELETE
-kops delete cluster --name rahams.k8s.local --yes
+kops delete cluster --name venkat.k8s.local --yes
